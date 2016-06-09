@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>SIMOTAN</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo"><img height="60" src="https://raw.githubusercontent.com/hyuwah/pkm-smartgarden/master/assets/images/g5551.png"/></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Navbar Link</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="#">Navbar Link</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons green-text">menu</i></a>
+        </div>
+    </nav>
+  </div>
+
+    <div id="index-banner" class="parallax-container" style="background: rgba(0, 0, 0, 0.3)">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br>
+                <br>
+                <h1 class="header center white-text" style="font-Size:6vw">Sistem Monitoring Tanaman Berbasis Mikrokontroler</h1>
+                <div class="row center">
+                    <h4 class="header col s12 light" style="font-Size:5vmin">Program Kreativitas Mahasiswa Bidang Karsa Cipta<br>2016</h4>
+                </div>
+                <!-- <div class="row center">
+                    <a href="#" id="download-button" class="btn-large waves-effect waves-light green darken-1">Get Started</a>
+                </div> -->
+                <br>
+                <br>
+
+            </div>
+        </div>
+        <!-- Gambar Parallax 1 -->
+        <div class="parallax"><img src="https://pixabay.com/static/uploads/photo/2016/02/17/08/27/plant-1204662_960_720.jpg" alt="Unsplashed background img 1"></div>
+    </div>
+
+
+    <div class="container">
+        <div class="section">
+
+            <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center green-text"><i class="material-icons">help</i></h2>
+                        <h5 class="center">Apa?</h5>
+
+                        <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center green-text"><i class="material-icons">assessment</i></h2>
+                        <h5 class="center">Mengapa?</h5>
+
+                        <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across
+                            all platforms allow for a more unified user experience.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center green-text"><i class="material-icons">people</i></h2>
+                        <h5 class="center">Siapa?</h5>
+
+                        <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="parallax-container valign-wrapper" style="background: rgba(0, 0, 0, 0.3)">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Gambar Parallax 2 -->
+        <div class="parallax"><img src="http://i.picresize.com/images/2016/05/04/AEifg.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h4>Stream Data</h4>
+                    <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien
+                        id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed
+                        ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+                    <div id="chart-container" style="margin:0 5% 0 5%;height: 480px;">
+                        <div class="progress" style="margin:20% 0% 0 0%;">
+                            <div class="indeterminate"></div>
+                        </div>
+                    </div>
+
+                    <div id="container">
+                        <div class="row" id="inner" style="padding:0% 5% 0% 5%">
+                            <div class="col s4" id="gauge_div_1" style="padding-right:8%; padding-left: 8%;"></div>
+                            <div class="col s4" id="gauge_div_2" style="padding-right:8%; padding-left: 8%;"></div>
+                            <div class="col s4" id="gauge_div_3" style="padding-right:8%; padding-left: 8%;"></div>
+                        </div>
+                    </div>
+
+                    <div style="margin:2% 5% 2% 5%" id="below chart">
+                        <div class="row">
+                            <button class="btn waves-effect waves-light grey darken-3" value="Hide All" name="Hide All Button" onclick="HideAll();">Hide All
+                            </button>
+                            <button class="btn waves-effect waves-light blue darken-3" value="Show All" name="Show All Button" onclick="ShowAll();">Show All
+                            </button>
+                            <button class="btn waves-effect waves-light" value="Load More Data" name="Load More Data" onclick="loadOneChannel();">Load More Historical Data </button>
+                            <input class="filled-in" id="Update" name="Update" type="checkbox" checked="checked" />
+                            <label for="Update" style="margin:0 8px">Update Charts (Latency)</label>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s4">
+                                <select id="Channel Select">
+                                    <option value="" disabled selected>Choose your option</option>
+                                </select>
+                            </div>
+                            <div class="input-field col s4">
+                                <select id="Loads">
+                                    <option value="" disabled selected>Choose your option</option>
+                                    <option value="1">1 Load</option>
+                                    <option value="2">2 Loads</option>
+                                    <option value="3">3 Loads</option>
+                                    <option value="4">4 Loads</option>
+                                    <option value="5" selected="selected">5 Loads</option>
+                                    <option value="6">6 Loads</option>
+                                    <option value="7">7 Loads</option>
+                                    <option value="8">8 Loads</option>
+                                    <option value="9">9 Loads</option>
+                                    <option value="10">10 Loads</option>
+                                    <option value="15">15 Loads</option>
+                                    <option value="20">20 Loads</option>
+                                    <option value="25">25 Loads</option>
+                                    <option value="30">30 Loads</option>
+                                    <option value="40">40 Loads</option>
+                                    <option value="50">50 Loads</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div style="font-size:smaller;">*Best viewed on 1366x768px with modern browser</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper" style="background: rgba(0, 0, 0, 0.3)">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Gambar Parallax 3 -->
+        <div class="parallax"><img src="http://www.powerhousehydroponics.com/wp-content/uploads/2015/01/powerhouse-hydroponics-robotic-plant-machine.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h4>Contact Us</h4>
+                    <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien
+                        id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed
+                        ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="parallax-container valign-wrapper" style="background: rgba(0, 0, 0, 0.3)">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+                </div>
+            </div>
+        </div>
+        <!-- Gambar Parallax 4 -->
+        <div class="parallax"><img src="https://pixabay.com/static/uploads/photo/2016/04/06/05/17/tomato-1310961_960_720.jpg" alt="Unsplashed background img 3"></div>
+    </div>
+
+    <footer class="page-footer green">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">SIMOTAN</h5>
+                    <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+
+
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Settings</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!">Link 1</a></li>
+                        <li><a class="white-text" href="#!">Link 2</a></li>
+                        <li><a class="white-text" href="#!">Link 3</a></li>
+                        <li><a class="white-text" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Connect</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!">Link 1</a></li>
+                        <li><a class="white-text" href="#!">Link 2</a></li>
+                        <li><a class="white-text" href="#!">Link 3</a></li>
+                        <li><a class="white-text" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Made by <a class="white-text text-lighten-3" href="http://hyuwah.github.io" target="_blank">hyuwah</a> with <a class="white-text text-lighten-3" href="http://materializecss.com" target="_blank">Materialize</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--  Scripts Template-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+
+    <!-- Highcharts Dependencies -->
+    <script src="http://code.highcharts.com/stock/highstock.js"></script>
+    <script src="http://code.highcharts.com/stock/modules/exporting.js"></script>
+    <script src="https://rawgithub.com/highslide-software/export-csv/master/export-csv.js"></script>
+    <!-- Google Chart Dependencies -->
+    <script type='text/javascript' src='https://www.google.com/jsapi'></script>
+
+    <!-- Main Script SG -->
+    <script src="js/smartgardenchart.js"></script>
+
+</body>
+
+</html>
