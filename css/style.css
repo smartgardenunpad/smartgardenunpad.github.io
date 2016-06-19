@@ -22,7 +22,7 @@ p {
 .parallax-container {
   min-height: 380px;
   line-height: 0;
-  height: auto;
+  height: 90vh;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
@@ -209,8 +209,10 @@ http://codepen.io/andytran/pen/BKOOQy
  text-align: center;
 }
 .at-user__avatar {
- width: 98px;
- height: 98px;
+ /*width: 98px;
+ height: 98px;*/
+ width: 100px;
+ height: 100px;
  border-radius: 100%;
  margin: 0 auto 20px;
  overflow: hidden;
@@ -223,14 +225,14 @@ http://codepen.io/andytran/pen/BKOOQy
 .at-user__name {
  color: #313435;
  font-family: 'Roboto', sans-serif;
- font-size: 1.5rem;
+ font-size: 1.3rem;
  font-weight: 500;
  line-height: 2.625rem;
 }
 .at-user__title {
  color: #6F808A;
  font-family: 'Roboto', sans-serif;
- font-size: 0.875rem;
+ font-size: 1.25rem
  line-height: 2.375rem;
 }
 .at-social {
@@ -256,3 +258,30 @@ http://codepen.io/andytran/pen/BKOOQy
 .at-social__item svg:hover {
  fill: #788D96;
 }
+
+/*SCROLLBAR CUSTOM*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background-color: #eaeaea;
+    border-left: 1px solid #ccc;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa;
+}
+
+
+/*STICKY FOOTER*/
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+
+      main {
+        flex: 1 0 auto;
+      }
