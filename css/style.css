@@ -285,3 +285,26 @@ http://codepen.io/andytran/pen/BKOOQy
       main {
         flex: 1 0 auto;
       }
+
+/*ATTENTION BUTTON*/
+.attention {
+  animation: attention 8s ease infinite;
+}
+
+@keyframes attention {
+  9% {
+    transform: none;
+  }
+  12% {
+    transform: scale(1.05);
+  }
+  16% {
+    transform: scale(0.95);
+  }
+  20% {
+    transform: scale(1.03);
+  }
+  24% {
+    transform: scale(1);
+  }
+}
