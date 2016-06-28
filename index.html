@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,7 +32,17 @@
 </head>
 
 <body>
+
+  	<!-- Loader -->
+  	<div id="loader-wrapper">
+  		<div id="loader"></div>
+  		<div class="loader-section section-left"></div>
+  		<div class="loader-section section-right"></div>
+  	</div>
+  	<!-- /Loader -->
+
     <!-- NAVBAR -->
+    <header>
     <div class="navbar-fixed">
         <nav class="white" role="navigation" style="outline: 3px solid green;">
             <div class="nav-wrapper container">
@@ -47,6 +58,7 @@
             </div>
         </nav>
     </div>
+</header>
 
     <!-- JUMBOTRON -->
     <div id="index-banner" class="parallax-container" style="background: rgba(0, 0, 0, 0.5)">
@@ -70,7 +82,7 @@
         </div>
         <!-- Gambar Parallax 1 -->
         <!-- <div class="parallax"><img src="https://pixabay.com/static/uploads/photo/2016/02/17/08/27/plant-1204662_960_720.jpg" alt="Unsplashed background img 1"></div> -->
-        <div class="parallax"><img src="https://goo.gl/jxyg6c" alt="Unsplashed background img 1"></div>
+        <div class="parallax"><img src="https://goo.gl/COv23m" alt="Unsplashed background img 1"></div>
 
     </div>
 
@@ -86,26 +98,24 @@
                             <h2 class="center green-text"><i class="material-icons">help</i></h2>
                             <h5 class="center">Apa?</h5>
 
-                            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+                            <p class="light">Smart Garden UNPAD merupakan sistem monitoring terintegrasi yang dapat melakukan perekaman data terkini dari parameter lingkungan yang berpengaruh bagi pertumbuhan tanaman.</p>
                         </div>
                     </div>
 
                     <div class="col s12 m4 animateme" id="R2" data-when="span" data-from="0.5" data-to="0.1" data-translatey="200">
                         <div class="icon-block">
-                            <h2 class="center green-text"><i class="material-icons">assessment</i></h2>
+                            <h2 class="center green-text"><i class="material-icons">trending_down</i></h2>
                             <h5 class="center">Mengapa?</h5>
-
-                            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system
-                                across all platforms allow for a more unified user experience.</p>
+                            <p class="light">Produktivitas hortikultura di Indonesia masih belum optimal, padahal lahan dan tenaga kerja sangat melimpah. Rendahnya kualitas SDM, teknik konvensional, keterbatasan informasi dan tak akuratnya data penunjang yang menyebabkan inefisiensi dan mistreatment menjadi penyebab dari permasalahan tersebut.</p>
                         </div>
                     </div>
 
                     <div class="col s12 m4 animateme" id="R3" data-when="span" data-from="0.6" data-to="0.2" data-translatey="200">
                         <div class="icon-block">
-                            <h2 class="center green-text"><i class="material-icons">people</i></h2>
-                            <h5 class="center">Siapa?</h5>
+                            <h2 class="center green-text"><i class="material-icons">check_circle</i></h2>
+                            <h5 class="center">Bagaimana?</h5>
 
-                            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+                            <p class="light">Dengan melakukan monitoring parameter pertumbuhan secara berkala diharapkan dapat membantu para petani ataupun peneliti di bidang pertanian untuk menentukan perlakuan yang tepat bagi tanaman dan meningkatkan efisiensi serta produktivitas.</p>
                         </div>
                     </div>
                 </div>
@@ -121,13 +131,17 @@
                 <div class="row center">
                   <h5 class="header col s12 light">Dashboard untuk memantau keadaan tanaman terkini serta rekam data dalam bentuk grafik.</h5>
                   <div class="col s12">
-                  <a class="attention btn-large waves-effect waves-light green darken-2" href="http://smartgardenunpad.github.io/dashboard"><i class="material-icons left">dashboard</i>Masuk ke Dashboard</a>
+                  <a class="attention btn-large waves-effect waves-light green darken-2" href="http://smartgardenunpad.github.io/dashboard"><i class="material-icons left">dashboard</i>Masuk Dashboard Web</a>
                 </div>
+                <h5 class="header col s12 light">atau</h5>
+                <div class="col s12">
+                <a class="attention btn-large waves-effect waves-light orange darken-2" href="http://smartgardenunpad.github.io/assets/apk/sgudashboard-0.5a.apk"><i class="material-icons left">android</i>Unduh SGU Dashboard</a>
+              </div>
                 </div>
             </div>
         </div>
         <!-- Gambar Parallax 2 -->
-        <div class="parallax"><img src="assets/images/Dashboard.JPG" alt="Unsplashed background img 2"></div>
+        <div class="parallax"><img src="https://goo.gl/ZBcM2p" alt="Unsplashed background img 2"></div>
         <!-- <div class="parallax"><img src="http://i.picresize.com/images/2016/05/04/AEifg.jpg" alt="Unsplashed background img 2"></div> -->
     </div>
 
@@ -140,11 +154,8 @@
                 <div class="col s12 center scrollme">
                     <h3><i class="fa fa-cogs grey-text text-lighten-2" aria-hidden="true"></i></h3>
                     <h4>Bagaimana Cara Kerjanya?</h4>
-                    <img src="/assets/images/diagram.svg" class="responsive-img animateme" data-when="enter" data-from="1" data-to="0.4" data-scale="0.8" data-opacity="0" alt="Diagram Kerja">
-
-                    <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien
-                        id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed
-                        ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+                    <img src="/assets/images/carakerjahub.jpg" class="responsive-img animateme" data-when="enter" data-from="1" data-to="0.4" data-scale="0.8" data-opacity="0" alt="Diagram Kerja">
+                    <img src="/assets/images/carakerjaapps.jpg" class="responsive-img animateme" data-when="enter" data-from="1" data-to="0.8" data-scale="0.8" data-opacity="0" alt="Diagram Kerja">
                 </div>
             </div>
 
@@ -284,7 +295,16 @@
     </div>
 
     <!-- BAGIAN FOOTER -->
-    <footer class="page-footer grey lighten-3">
+    <footer class="page-footer grey lighten-3" style="padding-top:0px">
+                <!-- Ontop link -->
+      <a href="#" class="white-text scrollup">
+        <div id="ontop" class="grey lighten-2 center" style="margin-bottom:20px">
+          <div class="top-arr center-align">
+            <i class="fa fa-long-arrow-up grey-text text-darken-2"></i>
+          </div>
+        </div>
+      </a>
+
         <div class="container">
             <div class="row">
                 <div class="col l8 m8 s12">
